@@ -25,7 +25,7 @@ function moveOutputPlugin() {
 export default defineConfig({
   // base 的寫法:
   // base: '/Hexschool-FrontEnd-Live-Week4/'
-  base: '/',
+  base: '/Hexschool-FrontEnd-Live-Week4/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
