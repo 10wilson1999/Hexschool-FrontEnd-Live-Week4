@@ -1,0 +1,62 @@
+.page-enroll {
+    @media(max-width:1000px){
+        .loginSmPict img{
+            width: 100%;
+        }
+    }
+    .welcome{
+        text-align: center;
+    }
+    .area img{
+        max-width: 526px;
+    }
+    .loginArea{
+        background-image: url(/assets/images/login-bg.png);
+        width: 746px;
+        border-radius: 12px;
+    }
+    .loginArea h3{
+        text-align: center;
+    }
+    .loginButton{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #DEE2E6;
+    text-align: center;
+    background: transparent; 
+    }
+    .loginButton a{
+        text-decoration: none;
+    }
+    .loginButton:hover{
+        border-bottom: 2px solid #DEE2E6;
+    }
+    .loginButton h6:hover{
+        color: #DEE2E6;
+    }
+    .enrollButton{
+        width: 50%;
+        border: none;
+        border-bottom: 2px solid #212529;
+        text-align: center;
+        background: transparent; 
+    }
+    .enrollButton a{
+        text-decoration: none;
+    }
+    .enrollButton:hover{
+        border-bottom: 2px solid #6c757d;
+    }
+    .enrollButton h6:hover{
+        color: #6c757d;
+    }
+    .options{
+        width: 100%;
+        border: 1px solid #DEE2E6;
+        background-color: white;
+        border-radius: 4px;
+    }
+    .options a{
+        text-decoration: none;
+    }
+}

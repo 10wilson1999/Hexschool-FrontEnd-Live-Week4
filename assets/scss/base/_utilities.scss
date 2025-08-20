@@ -1,0 +1,17 @@
+/* Basic Style Setting*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: #212529;
+}

@@ -1,0 +1,165 @@
+.page-product{
+    .product{
+    margin: 64px auto;
+    gap: 24px;
+    }
+    @media(max-width:1220px){
+        .product{
+        margin: 0 12px;
+        gap: 0;
+        }
+    }
+    .pictures{
+        gap: 8px;
+    }
+    .column1{
+        gap: 8px;
+        flex-direction: column;
+    }
+    .column1 img{
+        width: 369px;
+    }
+    .column2{
+        width: 526px;
+    }
+    @media(max-width:1220px){
+        .column2{
+        width: 100%;
+        }
+        .topPicture img{
+            width: 100%;
+        }
+    }
+    .breadcrumb{
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+    .productName{
+        margin-bottom: 16px;
+    }
+    .price{
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+    .oldPrice{
+        text-decoration: line-through;
+        line-height: 150%;
+    }
+    .paragraph{
+        margin-bottom: 32px;
+        line-height: 150%;
+        letter-spacing: 5%;
+    }
+    .p1{
+        margin-bottom: 12px;
+    }
+    .color{
+        margin-bottom: 32px;
+    }
+    .subtitle{
+        margin-bottom: 8px;
+    }
+    .options{
+        gap: 8px;
+        text-align: center;
+    }
+    .option img{
+        width: 64px;
+    }
+    .size{
+        margin-bottom: 48px;
+    }
+    .sizeOption{
+        gap: 8px;
+        margin-bottom: 8px;
+        font-weight: 500;
+    }
+    .stocked{
+        padding: 15px 37px;
+        border: 1px solid #DEE2E6;
+        border-radius: 4px;
+    }
+    .stocked:hover{
+        border: 1px solid #212529;
+    }
+    .outOfStocked{
+        padding: 15px 37px;
+        border: 1px solid #DEE2E6;
+        border-radius: 4px;
+        opacity: 40%;
+    }
+    .buttons{
+        width: 100%;
+        gap: 8px;
+        margin-bottom: 44px;
+    }
+    .likeButton{
+        border-radius: 4px;
+        padding: 12px 82px;
+        border: 1px solid #212529;
+    }
+    .likeButton:hover{
+        background-color: #212529;
+        color: white;
+    }
+    .likeButton svg{
+        margin-right: 5px;
+    }
+    .likeButton svg:hover{
+        color: white;
+    }
+    .bookButton{
+        border-radius: 4px;
+        padding: 12px 65.5px;
+        background: #212529;
+        color: white;
+    }
+    .bookButton:hover{
+        background-color: white;
+        color: #212529;
+        border: 1px solid #212529;
+    }
+    .bookButton svg:hover{
+        color: #212529;
+    }
+    @media(max-width:1220px){
+        .bookButton{
+            width: 95%;
+            text-align: center;
+        }
+    }
+    .bookButton svg{
+        margin-right: 5px;
+    }
+    .likeIcon svg{
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+    .likeIcon svg:hover{
+        color: red;
+    }
+    .note{
+        margin-bottom: 12px;
+    }
+    hr{
+        margin-top: 12px;
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+    .more{
+        margin: 48px auto;
+    }
+    .mayLike{
+        margin-bottom: 16px;
+    }
+    .row{
+        gap: 24px;
+        overflow-x: auto;
+    }
+    .moreProduct img{
+    width: 306px;
+    }
+    .name{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    }
+}

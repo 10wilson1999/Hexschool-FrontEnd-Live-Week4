@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URBNSTEP | 登入註冊</title>
+  </head>
+  <body class="page-enroll">
+    <%- include('./layout/header'); -%>
+    <div class="container d-none d-mdbg-block">
+        <div class="loginSmPict mx-bg--12">
+            <img src="/assets/images/login-sm.png" alt="loginPicture">
+        </div>
+        <div class="py-32">
+            <h4 class="mb-24 h4 welcome">歡迎！</h4>
+            <div class="d-flex mb-24">
+                <button class="loginButton">
+                    <a href="login.html">
+                        <h6 class="h6 text-neutral-600 py-12">登入</h6>
+                    </a>
+                </button>
+                <button class="enrollButton">
+                    <a href="#">
+                        <h6 class="h6 text-neutral-900 py-12">註冊</h6>
+                    </a>
+                </button>
+            </div>
+            <div class="options mb-8">
+                <a href="#" class="d-flex">
+                    <img class="pl-12 py-12" src="/assets/images/facebook.svg" alt="facebook login">
+                    <div class="text-md text-neutral-900 pl-12 py-20">Facebook 註冊</div>
+                </a>
+            </div>
+            <div class="options mb-8">
+                <a href="#" class="d-flex">
+                    <img class="pl-12 py-12" src="/assets/images/apple.svg" alt="facebook login">
+                    <div class="text-md text-neutral-900 pl-12 py-20">Apple 註冊</div>
+                </a>
+            </div>
+            <div class="options">
+                <a href="#" class="d-flex">
+                    <img class="pl-12 py-12" src="/assets/images/google.svg" alt="facebook login">
+                    <div class="text-md text-neutral-900 pl-12 py-20">Google 註冊</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container py-64 d-mdbg-none">
+        <div class="d-flex area">
+            <img src="/assets/images/login.png" alt="loginPicture">
+            <div class="loginArea px-80 py-120 ml-24">
+                <h3 class="mb-32 h3">歡迎！</h3>
+                <div class="d-flex mb-32">
+                    <button class="loginButton">
+                        <a href="/pages/login.html">
+                            <h6 class="h6 text-neutral-600 py-12">登入</h6>
+                        </a>
+                    </button>
+                    <button class="enrollButton">
+                        <a href="#">
+                            <h6 class="h6 text-neutral-900 py-12">註冊</h6>
+                        </a>
+                    </button>
+                </div>
+                <div class="options mb-8">
+                    <a href="#" class="d-flex">
+                        <img class="pl-12 py-12" src="/assets/images/facebook.svg" alt="facebook login">
+                        <div class="text-md text-neutral-900 pl-12 py-20">Facebook 註冊</div>
+                    </a>
+                </div>
+                <div class="options mb-8">
+                    <a href="#" class="d-flex">
+                        <img class="pl-12 py-12" src="/assets/images/apple.svg" alt="facebook login">
+                        <div class="text-md text-neutral-900 pl-12 py-20">Apple 註冊</div>
+                    </a>
+                </div>
+                <div class="options">
+                    <a href="#" class="d-flex">
+                        <img class="pl-12 py-12" src="/assets/images/google.svg" alt="facebook login">
+                        <div class="text-md text-neutral-900 pl-12 py-20">Google 註冊</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
