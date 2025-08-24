@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>URBNSTEP | 產品詳情</title>
   </head>
   <body class="page-product">
@@ -127,22 +128,22 @@
         <div class="container more">
             <p class="mayLike h4">你可能也喜歡...</p>
             <div class="row d-flex justify-between">
-              <div class="moreProduct">
+              <div class="moreProduct" data-aos="zoom-in" data-aos-delay="100">
                  <img src="/assets/images/product-2.png" alt="moreProduct">
                  <p class="name h6">VM001</p>
                  <p class="text-md">NT$2,600</p>
               </div>
-              <div class="moreProduct">
+              <div class="moreProduct" data-aos="zoom-in" data-aos-delay="200">
                  <img src="/assets/images/product-3.png" alt="moreProduct">
                  <p class="name h6">Melty Kiss</p>
                  <p class="text-md">NT$4,000</p>
               </div>
-              <div class="moreProduct">
+              <div class="moreProduct" data-aos="zoom-in" data-aos-delay="300">
                  <img src="/assets/images/product-4.png" alt="moreProduct">
                  <p class="name h6">BOOMBLOK</p>
                  <p class="text-md">NT$3,200</p>
               </div>
-              <div class="moreProduct">
+              <div class="moreProduct" data-aos="zoom-in" data-aos-delay="400">
                  <img src="/assets/images/product-7.png" alt="moreProduct">
                  <p class="name h6">Sugar Snap</p>
                  <p class="text-md">NT$4,000</p>
@@ -150,7 +151,7 @@
             </div>
         </div>
     </div>
-    <div class="regist">
+    <div class="regist" data-aos="fade-down">
         <div class="regist-title d-flex justify-center align-center">
             <h2 class="h4">加入會員取得 9 折優惠</h2>
             <a href="login.html" class="regist-a">馬上註冊</a>
@@ -158,6 +159,7 @@
     </div>
     <%- include('./layout/footer'); -%>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
